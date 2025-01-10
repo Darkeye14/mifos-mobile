@@ -9,6 +9,8 @@
     See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
 -->
 <resources>
+    <string name="new_password">ពាក្យសម្ងាត់ថ្មី</string>
+    <string name="change_account_password">ប្តូរពាក្យសម្ងាត់គណនី</string>
     <string name="login">ចូល</string>
     <string name="toast_welcome">សួស្តី, %1$s ។</string>
     <string name="unable_to_connect">គ្មានការតភ្ជាប់អ៊ីនធឺណិត</string>

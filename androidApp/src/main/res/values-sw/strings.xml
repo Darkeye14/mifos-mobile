@@ -10,6 +10,8 @@
 -->
 <resources>
     <string name="login">Ingia</string>
+    <string name="new_password">Nenosiri la akaunti</string>
+    <string name="change_account_password">Badilisha nenosiri la akaunti</string>
     <string name="toast_welcome">Sawadi, %1$s.</string>
     <string name="unable_to_connect">Hakuna uhusiano wa internet</string>
     <string name="basic">Msingi</string>

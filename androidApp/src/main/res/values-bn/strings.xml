@@ -10,6 +10,8 @@
 -->
 <resources>
     <string name="login">লগ ইন করুন</string>
+    <string name="new_password">নতুন পাসওয়ার্ড</string>
+    <string name="change_account_password">অ্যাকাউন্ট পাসওয়ার্ড পরিবর্তন করুন</string>
     <string name="toast_welcome">হ্যালো, %1$s।</string>
     <string name="unable_to_connect">কোন ইন্টারনেট সংযোগ নেই</string>
     <string name="basic">প্রাথমিক</string>

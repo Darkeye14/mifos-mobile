@@ -10,6 +10,8 @@
 -->
 <resources>
     <string name="login">Zaloguj Się</string>
+    <string name="new_password">Nowe hasło</string>
+    <string name="change_account_password">Zmień hasło do konta</string>
     <string name="toast_welcome">Witaj, %1$s.</string>
     <string name="unable_to_connect">Brak połączenia z Internetem</string>
     <string name="basic">Podstawowy</string>

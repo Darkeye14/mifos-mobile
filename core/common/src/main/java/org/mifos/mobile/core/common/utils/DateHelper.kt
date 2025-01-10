@@ -68,18 +68,18 @@ object DateHelper {
         val finalFormat = SimpleDateFormat(format, Locale.ENGLISH)
         var date: Date? = null
         try {
-            date = dateString?.let { pickerFormat.parse(it) }
+            date = pickerFormat.parse(dateString)
         } catch (e: ParseException) {
-            e.localizedMessage?.let { Log.d(LOG_TAG, it) }
+            Log.d(LOG_TAG, e.localizedMessage)
         }
-        return finalFormat.format(date!!)
+        return finalFormat.format(date)
     }
 
     fun getSpecificFormat(format: String?, dateLong: Long?): String? {
         try {
             return SimpleDateFormat(format, Locale.getDefault()).format(dateLong)
         } catch (e: ParseException) {
-            e.localizedMessage?.let { Log.d(LOG_TAG, it) }
+            Log.d(LOG_TAG, e.localizedMessage)
             return null
         }
     }
@@ -93,11 +93,11 @@ object DateHelper {
         val finalFormat = SimpleDateFormat(requiredFormat, Locale.ENGLISH)
         var date: Date? = null
         try {
-            date = dateString?.let { pickerFormat.parse(it) }
+            date = pickerFormat.parse(dateString)
         } catch (e: ParseException) {
-            e.localizedMessage?.let { Log.d(LOG_TAG, it) }
+            Log.d(LOG_TAG, e.localizedMessage)
         }
-        return finalFormat.format(date!!)
+        return finalFormat.format(date)
     }
 
     /**
@@ -127,7 +127,7 @@ object DateHelper {
         val sdf = SimpleDateFormat(pattern, Locale.getDefault())
         var date: Date? = null
         try {
-            date = dateStr?.let { sdf.parse(it) }
+            date = sdf.parse(dateStr)
         } catch (e: ParseException) {
             Log.d("TAG", e.message ?: "")
         }
@@ -154,13 +154,13 @@ object DateHelper {
 
     fun getDateAsStringFromLong(timeInMillis: Long?): String {
         val sdf = SimpleDateFormat("dd MMM yyyy", Locale.getDefault())
-        return sdf.format(Date(timeInMillis!!))
+        return sdf.format(timeInMillis?.let { Date(it) })
     }
 
     @JvmStatic
     fun getDateAndTimeAsStringFromLong(timeInMillis: Long?): String {
         val sdf = SimpleDateFormat("HH:mm a dd MMM yyyy", Locale.getDefault())
-        return sdf.format(Date(timeInMillis!!))
+        return sdf.format(timeInMillis?.let { Date(it) })
     }
 }
 

@@ -11,6 +11,8 @@
 <resources>
     <string name="feature_about_app_name">Mifos Mobile</string>
     <string name="login">లాగిన్</string>
+    <string name="new_password">కొత్త పాస్‌వర్డ్</string>
+    <string name="change_account_password">ాతా పాస్‌వర్డ్ మార్చండి</string>
     <string name="toast_welcome">స్వాగతం %1$s</string>
     <string name="feature_about_about_us">మా గురించి</string>
     <string name="unable_to_connect">ఇంటర్నెట్కి కనెక్ట్ చేయబడలేదు</string>

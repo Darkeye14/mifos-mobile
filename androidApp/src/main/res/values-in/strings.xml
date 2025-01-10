@@ -10,6 +10,8 @@
 -->
 <resources>
     <string name="login">Masuk</string>
+    <string name="new_password">Kata sandi baru</string>
+    <string name="change_account_password">Ubah kata sandi akun</string>
     <string name="toast_welcome">Halo, %1$s.</string>
     <string name="unable_to_connect">Tidak ada koneksi internet</string>
     <string name="basic">Primer</string>

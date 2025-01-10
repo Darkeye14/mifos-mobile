@@ -10,6 +10,8 @@
 -->
 <resources>
     <string name="login">ಲಾಗ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="new_password"> ಹೊಸ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="change_account_password">ಖಾತೆ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ</string>
     <string name="toast_welcome">ಹಲೋ, %1$s.</string>
     <string name="unable_to_connect">ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವಿಲ್ಲ</string>
     <string name="basic">ಪ್ರಾಥಮಿಕ</string>

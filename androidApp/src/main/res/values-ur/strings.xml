@@ -11,6 +11,8 @@
 <resources>
     <string name="feature_about_app_name">Mifos موبائل</string>
     <string name="login">لاگ ان کریں</string>
+    <string name="new_password">نیا پاس ورڈ</string>
+    <string name="change_account_password">اکاؤنٹ پاس ورڈ تبدیل کریں</string>
     <string name="toast_welcome">خوش آمدید %1$s</string>
     <string name="unable_to_connect">انٹرنیٹ سے منسلک نہیں</string>
     <string name="basic">بنیادی</string>

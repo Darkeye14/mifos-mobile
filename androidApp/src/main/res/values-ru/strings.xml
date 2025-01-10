@@ -10,6 +10,8 @@
 -->
 <resources>
     <string name="login">Вход</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="change_account_password">Изменить пароль учетной записи</string>
     <string name="toast_welcome">Здравствуйте, %1$s.</string>
     <string name="unable_to_connect">Нет подключения к интернету</string>
     <string name="basic">Первичный</string>

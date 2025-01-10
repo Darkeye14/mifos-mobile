@@ -10,7 +10,9 @@
 -->
 <resources>
     <string name="feature_about_app_name">Mifos မိုဘိုင်း</string>
+    <string name="new_password"> စကားဝှက်အသစ်</string>
     <string name="login">လော့ဂ်အင်</string>
+    <string name="change_account_password">အကောင့်စကားဝှက်ပြောင် း ပါ </string>
     <string name="toast_welcome">%1$s ကိုမှလှိုက်လှဲစွာကြိုဆိုပါသည်</string>
     <string name="unable_to_connect">အင်တာနက်ချိတ်ဆက်မ</string>
     <string name="basic">အခြေခံပညာ</string>

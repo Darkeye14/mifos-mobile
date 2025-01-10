@@ -10,7 +10,7 @@
 package org.mifos.mobile.core.common.utils
 
 import android.content.Context
-import androidx.preference.PreferenceManager
+import android.preference.PreferenceManager
 import org.mifos.mobile.core.common.R
 import java.util.Locale
 

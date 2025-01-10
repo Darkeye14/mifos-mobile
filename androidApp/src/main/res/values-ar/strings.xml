@@ -10,6 +10,8 @@
 -->
 <resources>
     <string name="feature_about_app_name">ميفوس موبايل</string>
+    <string name="new_password"> كلمة مرور جديدة</string>
+    <string name="change_account_password">غيير كلمة مرور الحساب</string>
     <string name="login">تسجيل الدخول</string>
     <string name="toast_welcome">%1$s أهلا بك</string>
     <string name="unable_to_connect">غير متصل بالإنترنت</string>

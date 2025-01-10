@@ -10,6 +10,8 @@
 -->
 <resources>
     <string name="feature_about_app_name">Mifos Mobile</string>
+    <string name="new_password">Nova senha</string>
+    <string name="change_account_password">Alterar senha da conta</string>
     <string name="login">Entrar</string>
     <string name="toast_welcome">Bem-vindo %1$s</string>
     <string name="unable_to_connect">Não conectado à internet</string>
