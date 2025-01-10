@@ -13,6 +13,8 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.PagerState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
@@ -23,10 +25,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.google.accompanist.pager.HorizontalPager
-import com.google.accompanist.pager.PagerState
 
-@Suppress("DEPRECATION")
 @Composable
 fun MifosTabPager(
     pagerState: PagerState,
@@ -66,11 +65,11 @@ fun MifosTabPager(
 
         HorizontalPager(
             state = pagerState,
-            count = tabs.size,
             modifier = Modifier.fillMaxWidth(),
-            content = { page ->
+            pageContent = { page ->
                 content(page)
             },
+            beyondViewportPageCount = tabs.size,
         )
     }
 }

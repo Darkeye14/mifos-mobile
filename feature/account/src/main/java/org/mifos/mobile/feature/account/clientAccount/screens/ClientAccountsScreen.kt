@@ -181,7 +181,7 @@ private fun ClientAccountsTabRow(
     modifier: Modifier = Modifier,
 ) {
     var page by remember { mutableIntStateOf(currentPage) }
-    val pagerState = rememberPagerState()
+    val pagerState = androidx.compose.foundation.pager.rememberPagerState { page }
 
     val tabs = listOf(
         stringResource(id = R.string.feature_account_savings),

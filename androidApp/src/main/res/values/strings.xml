@@ -9,6 +9,9 @@
     See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
 -->
 <resources>
+    <string name="change_account_password">Change Account Password</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
     <string name="feature_about_app_name">Mifos Mobile</string>
     <string name="login">Login</string>
     <string name="toast_welcome">Welcome %1$s</string>
@@ -607,6 +610,26 @@
         <item>русский</item>
         <item>Kiswahili</item>
         <item>فارسی</item>
+    </string-array>
+
+    <string-array name="faq_qs">
+        <item>How to apply for a new account?</item>
+        <item>Where can I view my profile information?</item>
+        <item>Where can I see my savings account transactions?</item>
+        <item>What is the use of a QR code?</item>
+        <item>How to create a beneficiary using a QR code?</item>
+        <item>How to make a payment for a loan account?</item>
+    </string-array>
+
+    <string-array name="faq_ans">
+        <item>To apply for a loan account, click on "Report loan application" on the home screen.</item>
+        <item>You can view your profile information by clicking on the profile picture on the main page of the application.</item>
+        <item>To view transactions in your savings account, go to the Accounts section, click on the required savings account, click on the
+            three dots present in the upper right corner and select the Transaction option.</item>
+        <item>The QR code of all loan or savings accounts can be shared with other users which will allow them to create a beneficiary.</item>
+        <item>To create a beneficiary, go to the beneficiary on the main page of the application, then click on the button in the lower right corner, select the scan option which will open the camera
+            of the device, scan the QR code of the person for whom you want to create a beneficiary, after filling in the required data, create beneficiaries using the QR code.</item>
+        <item>To make a payment for a loan account, go to the Accounts section, select the LOAN option, open the target loan account and click on the Make a payment option.</item>
     </string-array>
 
     <string-array name="core_common_languages_value" translatable="false">

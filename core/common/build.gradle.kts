@@ -14,8 +14,14 @@ plugins {
 
 android {
     namespace = "org.mifos.mobile.core.common"
+
+    lint {
+        disable.add( "NullSafeMutableLiveData" )
+    }
+
 }
 
 dependencies {
 
+    implementation(libs.androidx.preference.ktx)
 }

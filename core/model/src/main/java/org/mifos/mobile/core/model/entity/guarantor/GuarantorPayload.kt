@@ -14,7 +14,6 @@ package org.mifos.mobile.core.model.entity.guarantor
  */
 
 import android.os.Parcelable
-import kotlinx.android.parcel.RawValue
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
@@ -26,7 +25,7 @@ data class GuarantorPayload(
 
     var lastname: String? = null,
 
-    var guarantorType: @RawValue GuarantorType? = null,
+    var guarantorType: GuarantorType? = null,
 
     var firstname: String? = null,
 

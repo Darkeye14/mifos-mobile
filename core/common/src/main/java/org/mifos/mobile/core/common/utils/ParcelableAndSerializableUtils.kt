@@ -19,6 +19,7 @@ object ParcelableAndSerializableUtils {
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             this.getParcelableArrayList(key, classType)
         } else {
+            @Suppress("DEPRECATION")
             this.getParcelableArrayList(key)
         }
     }
@@ -27,6 +28,7 @@ object ParcelableAndSerializableUtils {
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             this.getParcelable(key, classType)
         } else {
+            @Suppress("DEPRECATION")
             this.getParcelable(key)
         }
     }
@@ -35,6 +37,7 @@ object ParcelableAndSerializableUtils {
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             this.getSerializable(key, classType)
         } else {
+            @Suppress("DEPRECATION")
             this.getSerializable(key)
         }
     }

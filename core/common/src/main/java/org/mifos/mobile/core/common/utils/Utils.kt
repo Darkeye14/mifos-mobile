@@ -37,6 +37,7 @@ object Utils {
             val drawable = menu.getItem(i).icon
             if (drawable != null) {
                 drawable.mutate()
+                @Suppress("DEPRECATION")
                 drawable.setColorFilter(
                     ContextCompat.getColor(context!!, color),
                     PorterDuff.Mode.SRC_IN,

@@ -9,6 +9,7 @@
  */
 package org.mifos.mobile.core.model.entity.accounts.loan
 
+import android.os.Build
 import android.os.Parcel
 import android.os.Parcelable
 import org.mifos.mobile.core.model.entity.accounts.Account
@@ -57,6 +58,7 @@ data class LoanAccount(
     var timeline: Timeline?,
 
 ) : Account(), Parcelable {
+    @androidx.annotation.RequiresApi(Build.VERSION_CODES.TIRAMISU)
     constructor(parcel: Parcel) : this(
         parcel.readLong(),
         parcel.readString(),
@@ -69,16 +71,16 @@ data class LoanAccount(
         parcel.readString(),
         parcel.readDouble(),
         parcel.readDouble(),
-        parcel.readParcelable(Status::class.java.classLoader),
-        parcel.readParcelable(LoanType::class.java.classLoader),
+        parcel.readParcelable(Status::class.java.classLoader, Status::class.java),
+        parcel.readParcelable(LoanType::class.java.classLoader, LoanType::class.java),
         parcel.readValue(Int::class.java.classLoader) as? Int,
         parcel.readDouble(),
         parcel.readDouble(),
-        parcel.readParcelable(Currency::class.java.classLoader),
+        parcel.readParcelable(Currency::class.java.classLoader, Currency::class.java),
         parcel.readValue(Boolean::class.java.classLoader) as? Boolean,
-        parcel.readParcelable(Summary::class.java.classLoader),
+        parcel.readParcelable(Summary::class.java.classLoader, Summary::class.java),
         parcel.readString(),
-        parcel.readParcelable(Timeline::class.java.classLoader),
+        parcel.readParcelable(Timeline::class.java.classLoader, Timeline::class.java),
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
