@@ -46,7 +46,7 @@ data class Timeline(
 
     var withdrawnOnDate: List<Int>,
 
-    ) : Parcelable {
+) : Parcelable {
     constructor(parcel: Parcel) : this(
         arrayListOf<Int>().apply {
             parcel.readArrayList(Int::class.java.classLoader)

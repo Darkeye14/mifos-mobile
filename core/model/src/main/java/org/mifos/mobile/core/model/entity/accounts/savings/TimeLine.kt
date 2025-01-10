@@ -39,7 +39,7 @@ data class TimeLine(
 
     var closedOnDate: List<Int>,
 
-    ) : Parcelable {
+) : Parcelable {
     constructor(parcel: Parcel) : this(
         arrayListOf<Int>().apply {
             parcel.readArrayList(Int::class.java.classLoader)

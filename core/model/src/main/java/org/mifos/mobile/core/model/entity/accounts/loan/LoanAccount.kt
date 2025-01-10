@@ -56,7 +56,7 @@ data class LoanAccount(
 
     var timeline: Timeline?,
 
-    ) : Account(), Parcelable {
+) : Account(), Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readLong(),
         parcel.readString(),
