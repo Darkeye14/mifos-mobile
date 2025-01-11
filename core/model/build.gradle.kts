@@ -30,7 +30,6 @@ dependencies {
 
     // For Serialized name
     implementation(libs.squareup.retrofit.converter.gson)
-    implementation(libs.androidx.annotation.jvm)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
